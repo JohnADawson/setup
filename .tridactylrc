@@ -1,0 +1,78 @@
+colourscheme dark
+set hintchars etanoshdirumpfvgyl
+
+" 0. if US the UK code plus a
+" 1. standard abbreviation
+" 2. if one word first two letters
+" 3. if more than two words initials
+set searchurls.am https://www.amazon.co.uk/s/?field-keywords=
+set searchurls.at https://alternativeto.net/browse/search/?q=
+set searchurls.bg https://www.biblegateway.com/quicksearch/?version=NASB1995&quicksearch=
+set searchurls.bgg https://boardgamegeek.com/geeksearch.php?action=search&objecttype=boardgame&q=
+set searchurls.bgp https://boardgameprices.co.uk/item/search?search=
+set searchurls.bh https://biblemenus.com/search.php?q=
+set searchurls.bi https://www.bing.com/search?q=
+set searchurls.bpa http://booksprice.co.uk/compare.do?searchType=authorName&inputData=
+set searchurls.bpi http://booksprice.co.uk/compare.do?searchType=isbn&inputData=
+set searchurls.bpt http://booksprice.co.uk/compare.do?searchType=bookName&inputData=
+set searchurls.cb https://chambers.co.uk/search/?title=biog&query=
+set searchurls.cd https://chambers.co.uk/search/?title=21st&query=
+set searchurls.ct https://chambers.co.uk/search/?title=thes&query=
+set searchurls.ctan https://www.ctan.org/search?phrase=
+set searchurls.ddg https://duckduckgo.com/?q=
+set searchurls.eb https://www.ebay.co.uk/sch/i.html?_nkw=
+set searchurls.gh https://github.com/search?q=
+set searchurls.gm https://www.google.com/maps?q=
+set searchurls.go https://www.google.co.uk/search?q=
+set searchurls.goa https://www.google.com/search?q=
+set searchurls.gr https://www.goodreads.com/search?q=
+set searchurls.grs https://www.goodreads.com/shelf/show/
+set searchurls.gs https://scholar.google.com/scholar?q=
+set searchurls.hud https://www.hotukdeals.com/search?q=
+set searchurls.lsb https://read.lsbible.org/?q=
+set searchurls.ma https://maplesoft.com/support/help/search.aspx?term=
+set searchurls.mpl https://matplotlib.org/stable/search.html?q=
+set searchurls.np https://numpy.org/doc/stable/search.html?q=
+set searchurls.nx https://networkx.org/documentation/stable/search.html?q=
+set searchurls.oed https://www.etymonline.com/search?q=
+set searchurls.oeis https://oeis.org/search?q=
+set searchurls.osm https://www.openstreetmap.org/search?query=
+set searchurls.pd https://pandas.pydata.org/docs/search.html?q=
+set searchurls.pr https://engine.presearch.org/search?q=
+set searchurls.pt https://www.powerthesaurus.org/_search?q=
+set searchurls.py https://docs.python.org/3/search.html?q=
+set searchurls.pypi https://pypi.org/search/?q=
+set searchurls.qw https://www.qwant.com/?q=
+set searchurls.rl https://rdflib.readthedocs.io/en/stable/search.html?q=
+set searchurls.sc https://docs.scipy.org/doc/scipy/search.html?q=
+set searchurls.sh http://symbolhound.com/?q=
+set searchurls.sns https://seaborn.pydata.org/search.html?q=
+set searchurls.sp https://startpage.com/do/search?query=
+set searchurls.sy https://docs.sympy.org/latest/search.html?q=
+set searchurls.th https://www.thesaurus.com/browse/
+set searchurls.tw https://twitter.com/search?q=
+set searchurls.up https://packages.ubuntu.com/search?keywords=
+set searchurls.wi https://en.wikipedia.org/wiki/Special:Search/
+set searchurls.wm https://web.archive.org/web/*/
+set searchurls.wo https://www.wordnik.com/words/
+set searchurls.ya https://search.yahoo.com/search?p=
+set searchurls.yt https://www.youtube.com/results?search_query=
+setnull searchurls.amazon
+setnull searchurls.amazonuk
+setnull searchurls.bing
+setnull searchurls.cnrtl
+setnull searchurls.duckduckgo
+setnull searchurls.gentoo_wiki
+setnull searchurls.github
+setnull searchurls.google
+setnull searchurls.googlelucky
+setnull searchurls.googleuk
+setnull searchurls.mdn
+setnull searchurls.qwant
+setnull searchurls.scholar
+setnull searchurls.searx
+setnull searchurls.startpage
+setnull searchurls.twitter
+setnull searchurls.wikipedia
+setnull searchurls.yahoo
+setnull searchurls.youtube
