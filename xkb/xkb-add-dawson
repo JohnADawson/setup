@@ -1,0 +1,49 @@
+#!/usr/bin/env bash
+
+cd /usr/share/X11/xkb/symbols
+
+sudo tee --append us << _EOF_
+
+partial alphanumeric_keys modifier_keys
+xkb_symbols "dawson-altgr-intl" {
+   include "us(carpalx-full-altgr-intl)"
+   name[Group1]= "English (Dawson, intl., with AltGr dead keys)";
+
+   key <AB01> { [ z, Z, endash, emdash ] };
+   key <LSGT> { [ apostrophe, quotedbl, dead_acute, dead_diaeresis ] };
+   replace key <AC11> { [ Control_R, Control_R ] };
+   modifier_map Control { <AC11> };
+   include "level3(switch)"
+   include "level3(ralt_alt)"
+   include "ctrl(swapcaps)"
+};
+
+partial alphanumeric_keys modifier_keys
+xkb_symbols "dawson-return-altgr-intl" {
+   include "us(dawson-altgr-intl)"
+   name[Group1]= "English (Dawson, swapping return and backslash, intl., with AltGr dead keys)";
+
+   replace key <BKSL> { [ Return, Return ] };
+   key <RTRN> { [ backslash, bar, notsign, brokenbar ] };
+};
+_EOF_
+
+sudo tee --append sun_vndr/us << _EOF_
+
+partial alphanumeric_keys modifier_keys
+xkb_symbols "dawson-altgr-intl" {
+   include "us(dawson-altgr-intl)"
+};
+
+partial alphanumeric_keys modifier_keys
+xkb_symbols "dawson-return-altgr-intl" {
+   include "us(dawson-return-altgr-intl)"
+};
+_EOF_
+
+cd ../rules
+sudo mv base.extras.xml base.extras.xml.old
+sudo wget https://raw.githubusercontent.com/JohnADawson/setup/master/xkb/base.extras.xml
+sudo mv evdev.extras.xml evdev.extras.xml.old
+sudo wget https://raw.githubusercontent.com/JohnADawson/setup/master/xkb/evdev.extras.xml
+gsettings set org.gnome.desktop.input-sources show-all-sources true
