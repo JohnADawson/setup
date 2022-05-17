@@ -32,6 +32,7 @@ set searchurls.hud https://www.hotukdeals.com/search?q=
 set searchurls.lsb https://read.lsbible.org/?q=
 set searchurls.ma https://maplesoft.com/support/help/search.aspx?term=
 set searchurls.mpl https://matplotlib.org/stable/search.html?q=
+set searchurls.mr https://marginalrevolution.com/?s=
 set searchurls.np https://numpy.org/doc/stable/search.html?q=
 set searchurls.nx https://networkx.org/documentation/stable/search.html?q=
 set searchurls.oed https://www.etymonline.com/search?q=
