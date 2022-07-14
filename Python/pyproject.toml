@@ -7,6 +7,3 @@ profile = "black"
 
 [tool.pylint.format]
 max-line-length = "88"
-
-[tool.pylint.messages_control]
-disable = "C0330, C0326"
