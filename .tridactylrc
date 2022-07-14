@@ -40,6 +40,7 @@ set searchurls.oed https://www.etymonline.com/search?q=
 set searchurls.oeis https://oeis.org/search?q=
 set searchurls.osm https://www.openstreetmap.org/search?query=
 set searchurls.pd https://pandas.pydata.org/docs/search.html?q=
+set searchurls.pi https://piped.kavin.rocks/results?search_query=
 set searchurls.pr https://engine.presearch.org/search?q=
 set searchurls.pt https://www.powerthesaurus.org/_search?q=
 set searchurls.py https://docs.python.org/3/search.html?q=
