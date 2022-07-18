@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 cd /usr/share/X11/xkb/symbols
 
 sudo tee --append us << _EOF_
