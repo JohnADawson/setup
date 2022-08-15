@@ -34,6 +34,7 @@ This function should only modify configuration layer settings."
    dotspacemacs-configuration-layers
    '(csv
      javascript
+     pdf
      (python :variables
              python-fill-column 72
              python-format-on-save t
