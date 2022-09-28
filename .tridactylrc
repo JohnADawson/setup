@@ -50,6 +50,7 @@ set searchurls.qw https://www.qwant.com/?q=
 set searchurls.rl https://rdflib.readthedocs.io/en/stable/search.html?q=
 set searchurls.sc https://docs.scipy.org/doc/scipy/search.html?q=
 set searchurls.sh http://symbolhound.com/?q=
+set searchurls.sm https://www.statsmodels.org/stable/search.html?q=
 set searchurls.sns https://seaborn.pydata.org/search.html?q=
 set searchurls.sp https://startpage.com/do/search?query=
 set searchurls.sy https://docs.sympy.org/latest/search.html?q=
