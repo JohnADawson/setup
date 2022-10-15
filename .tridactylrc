@@ -57,9 +57,9 @@ set searchurls.sy https://docs.sympy.org/latest/search.html?q=
 set searchurls.th https://www.thesaurus.com/browse/
 set searchurls.tw https://twitter.com/search?q=
 set searchurls.up https://packages.ubuntu.com/search?keywords=
-set searchurls.wi https://en.wikipedia.org/wiki/Special:Search/
 set searchurls.wm https://web.archive.org/web/*/
 set searchurls.wo https://www.wordnik.com/words/
+set searchurls.wp https://en.wikipedia.org/wiki/Special:Search/
 set searchurls.ya https://search.yahoo.com/search?p=
 set searchurls.yt https://www.youtube.com/results?search_query=
 setnull searchurls.amazon
