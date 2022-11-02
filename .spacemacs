@@ -38,6 +38,7 @@ This function should only modify configuration layer settings."
      pdf
      (python :variables
              python-fill-column 72
+             python-fill-docstring-style 'pep-257-nn
              python-format-on-save t
              python-formatter 'black
              python-sort-imports-on-save t
@@ -578,7 +579,7 @@ This function is called at the very end of Spacemacs startup, after layer
 configuration.
 Put your configuration code here, except for variables that should be set
 before packages are loaded."
-  (setq python-fill-docstring-style 'pep-257-nn))
+)
 
 
 ;; Do not write anything past this comment. This is where Emacs will
