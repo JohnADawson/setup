@@ -34,7 +34,6 @@ This function should only modify configuration layer settings."
    dotspacemacs-configuration-layers
    '(csv
      elfeed
-     json
      pdf
      (python :variables
              python-fill-column 72
