@@ -54,7 +54,7 @@ This function should only modify configuration layer settings."
      git
      helm
      lsp
-     markdown
+     ;; markdown
      multiple-cursors
      ;; org
      ;; (shell :variables
