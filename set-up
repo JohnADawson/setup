@@ -8,6 +8,8 @@ sudo apt install --yes \
    git \
    gnome-shell-pomodoro \
    gramps \
+   graphviz \
+   libgraphviz-dev \
    libimage-exiftool-perl \
    mit-scheme \
    mit-scheme-dbg \
