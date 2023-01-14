@@ -1,8 +1,7 @@
-autoflake
 epc
 importmagic
 pytest
-python-lsp-server[flake8,mccabe,pycodestyle,pydocstyle,pyflakes,pylint,rope]
+python-lsp-server[rope]
 pyls-isort
 pyls-memestra
 pylsp-rope
