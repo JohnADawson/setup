@@ -6,3 +6,4 @@ pyls-isort
 pyls-memestra
 pylsp-rope
 python-lsp-black
+python-lsp-ruff
