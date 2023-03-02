@@ -62,6 +62,7 @@ set searchurls.wa https://www.wolframalpha.com/input?i=
 set searchurls.wm https://web.archive.org/web/*/
 set searchurls.wo https://www.wordnik.com/words/
 set searchurls.wp https://en.wikipedia.org/wiki/Special:Search/
+set searchurls.xr https://docs.xarray.dev/en/stable/search.html?q=
 set searchurls.ya https://search.yahoo.com/search?p=
 set searchurls.yt https://www.youtube.com/results?search_query=
 setnull searchurls.amazon
