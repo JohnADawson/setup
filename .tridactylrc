@@ -45,6 +45,7 @@ set searchurls.pi https://piped.kavin.rocks/results?search_query=
 set searchurls.pr https://engine.presearch.org/search?q=
 set searchurls.pt https://www.powerthesaurus.org/_search?q=
 set searchurls.py https://docs.python.org/3/search.html?q=
+set searchurls.pymc https://www.pymc.io/search.html?q=
 set searchurls.pypi https://pypi.org/search/?q=
 set searchurls.qw https://www.qwant.com/?q=
 set searchurls.rl https://rdflib.readthedocs.io/en/stable/search.html?q=
