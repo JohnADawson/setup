@@ -21,6 +21,7 @@ sudo apt install --yes \
    python3-tk \
    python3-venv \
    ripgrep \
+   stockfish \
    zathura \
    zathura-djvu \
    zathura-ps
