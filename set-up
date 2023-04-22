@@ -2,7 +2,6 @@
 sudo apt update
 sudo apt full-upgrade
 sudo apt install --yes \
-   anki \
    emacs \
    gcc \
    git \
