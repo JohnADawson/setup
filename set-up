@@ -10,6 +10,7 @@ sudo apt install --yes \
    graphviz \
    libgraphviz-dev \
    libimage-exiftool-perl \
+   libxcb-xinerama0 \
    mit-scheme \
    mit-scheme-dbg \
    mit-scheme-doc \
