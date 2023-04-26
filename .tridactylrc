@@ -50,6 +50,7 @@ set searchurls.pymc https://www.pymc.io/search.html?q=
 set searchurls.pypi https://pypi.org/search/?q=
 set searchurls.qw https://www.qwant.com/?q=
 set searchurls.rl https://rdflib.readthedocs.io/en/stable/search.html?q=
+set searchurls.ru https://rumble.com/search/all?q=
 set searchurls.sc https://docs.scipy.org/doc/scipy/search.html?q=
 set searchurls.sh http://symbolhound.com/?q=
 set searchurls.sm https://www.statsmodels.org/stable/search.html?q=
