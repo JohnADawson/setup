@@ -37,6 +37,7 @@ set searchurls.mr https://marginalrevolution.com/?s=
 set searchurls.ni https://nitter.kylrth.com/search?q=
 set searchurls.np https://numpy.org/doc/stable/search.html?q=
 set searchurls.nx https://networkx.org/documentation/stable/search.html?q=
+set searchurls.od https://odysee.com/$/search?q=
 set searchurls.oed https://www.etymonline.com/search?q=
 set searchurls.oeis https://oeis.org/search?q=
 set searchurls.osm https://www.openstreetmap.org/search?query=
