@@ -18,6 +18,7 @@ set searchurls.bpt http://booksprice.co.uk/compare.do?searchType=bookName&inputD
 set searchurls.chb https://chambers.co.uk/search/?title=biog&query=
 set searchurls.chd https://chambers.co.uk/search/?title=21st&query=
 set searchurls.cht https://chambers.co.uk/search/?title=thes&query=
+set searchurls.ct https://archive.org/details/opensource?query=
 set searchurls.ctan https://www.ctan.org/search?phrase=
 set searchurls.ddg https://duckduckgo.com/?q=
 set searchurls.eb https://www.ebay.co.uk/sch/i.html?_nkw=
