@@ -1,6 +1,5 @@
 epc
 importmagic
-pytest
 python-lsp-server[rope]
 pyls-isort
 pyls-memestra
