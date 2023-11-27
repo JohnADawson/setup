@@ -2,7 +2,6 @@ epc
 importmagic
 python-lsp-server[rope]
 pyls-isort
-pyls-memestra
 pylsp-rope
 python-lsp-black
 python-lsp-ruff
