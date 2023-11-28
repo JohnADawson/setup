@@ -36,6 +36,7 @@ This function should only modify configuration layer settings."
      elfeed
      pdf
      (python :variables
+             lsp-pylsp-plugins-rope-autoimport-enabled t
              python-fill-column 72
              python-fill-docstring-style 'pep-257-nn
              python-format-on-save t
