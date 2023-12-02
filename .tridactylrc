@@ -7,7 +7,7 @@ set hintchars etanoshdirumpfvgyl
 " 3. if more than two words initials
 set searchurls.am https://www.amazon.co.uk/s/?field-keywords=
 set searchurls.at https://alternativeto.net/browse/search/?q=
-set searchurls.bg https://www.biblegateway.com/quicksearch/?version=NASB1995&quicksearch=
+set searchurls.bg https://www.biblegateway.com/quicksearch/?version=AKJV&quicksearch=
 set searchurls.bgg https://boardgamegeek.com/geeksearch.php?action=search&objecttype=boardgame&q=
 set searchurls.bgp https://boardgameprices.co.uk/item/search?search=
 set searchurls.bh https://biblemenus.com/search.php?q=
