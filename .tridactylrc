@@ -63,6 +63,7 @@ set searchurls.th https://www.thesaurus.com/browse/
 set searchurls.tw https://twitter.com/search?q=
 set searchurls.up https://packages.ubuntu.com/search?keywords=
 set searchurls.wa https://www.wolframalpha.com/input?i=
+set searchurls.wi https://en.wiktionary.org/w/index.php?search=
 set searchurls.wm https://web.archive.org/web/*/
 set searchurls.wo https://www.wordnik.com/words/
 set searchurls.wp https://en.wikipedia.org/wiki/Special:Search/
