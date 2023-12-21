@@ -1,0 +1,130 @@
+# bytecode and DLLs
+*.py[cod]
+__pycache__/
+
+# C extensions
+*.so
+
+# Jython bytecode
+*$py.class
+
+# packaging
+*.egg
+*.egg-info/
+.eggs/
+.installed.cfg
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+MANIFEST
+parts/
+sdist/
+share/python-wheels/
+var/
+wheels/
+
+# pip
+pip-delete-this-directory.txt
+pip-log.txt
+
+# testing
+*.cover
+*.py,cover
+.cache
+.coverage
+.coverage.*
+.hypothesis/
+.nox/
+.pytest_cache/
+.tox/
+cover/
+coverage.xml
+htmlcov/
+nosetests.xml
+
+# translation
+*.mo
+*.pot
+
+# virtual environments
+.env
+.venv
+env/
+venv/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Cython
+cython_debug/
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+local_settings.py
+
+# Flask
+.webassets-cache/
+instance/
+
+# IPython
+ipython_config.py
+profile_default/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# MkDocs
+/site
+
+# mypy
+.dmypy.json
+.mypy_cache/
+dmypy.json
+
+# PDM
+#   https://pdm-project.org/latest/usage/project/#working-with-version-control
+.pdm-python
+
+# PEP 582
+#   __pypackages__ is used by, for example, PDM and Pyflow.
+__pypackages__/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Pyre
+.pyre/
+
+# pytype
+.pytype/
+
+# Rope
+.ropeproject/
+
+# Ruff
+.ruff_cache/
+
+# SageMath
+*.sage.py
+
+# Scrapy
+.scrapy
+
+# Sphinx
+docs/_build/
+
+# Spyder
+.spyproject/
