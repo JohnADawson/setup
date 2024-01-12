@@ -11,6 +11,7 @@ set searchurls.bg https://www.biblegateway.com/quicksearch/?version=AKJV&quickse
 set searchurls.bgg https://boardgamegeek.com/geeksearch.php?action=search&objecttype=boardgame&q=
 set searchurls.bgp https://boardgameprices.co.uk/item/search?search=
 set searchurls.bh https://biblemenus.com/search.php?q=
+set searchurls.bht https://words.bighugelabs.com/
 set searchurls.bi https://www.bing.com/search?q=
 set searchurls.bpa http://booksprice.co.uk/compare.do?searchType=authorName&inputData=
 set searchurls.bpi http://booksprice.co.uk/compare.do?searchType=isbn&inputData=
