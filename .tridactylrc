@@ -8,6 +8,7 @@ set hintchars etanoshdirumpfvgyl
 set searchurls.am https://www.amazon.co.uk/s/?field-keywords=
 set searchurls.an https://ankiweb.net/shared/decks?search=
 set searchurls.at https://alternativeto.net/browse/search/?q=
+set searchurls.bbfc https://www.bbfc.co.uk/search?q=
 set searchurls.bg https://www.biblegateway.com/quicksearch/?version=%s1&quicksearch=%s[2:]
 set searchurls.bgg https://boardgamegeek.com/geeksearch.php?action=search&objecttype=boardgame&q=
 set searchurls.bgp https://boardgameprices.co.uk/item/search?search=
