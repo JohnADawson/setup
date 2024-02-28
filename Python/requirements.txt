@@ -3,4 +3,3 @@ pyls-isort
 pylsp-rope
 python-lsp-black
 python-lsp-ruff==1.5.3
-ruff==0.0.292
