@@ -2,4 +2,4 @@ python-lsp-server[rope]
 pyls-isort
 pylsp-rope
 python-lsp-black
-python-lsp-ruff==1.5.3
+python-lsp-ruff

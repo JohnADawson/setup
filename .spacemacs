@@ -38,6 +38,7 @@ This function should only modify configuration layer settings."
      (python :variables
              lsp-pylsp-plugins-rope-autoimport-enabled t
              lsp-pylsp-plugins-ruff-enabled t
+             lsp-pylsp-plugins-ruff-unsafe-fixes t
              python-fill-column 72
              python-fill-docstring-style 'pep-257-nn
              python-format-on-save t
