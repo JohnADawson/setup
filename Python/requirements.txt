@@ -1,5 +1,5 @@
 python-lsp-server[rope]
-pyls-isort
 pylsp-rope
 python-lsp-black
+python-lsp-isort
 python-lsp-ruff
