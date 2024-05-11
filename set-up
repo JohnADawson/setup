@@ -24,7 +24,7 @@ sudo apt install --yes \
    stockfish \
    zathura \
    zathura-djvu \
-   zathura-ps
+   zathura-ps \
 
 sudo git config --system core.editor emacs
 sudo git config --system pull.rebase true
