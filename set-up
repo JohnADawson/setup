@@ -22,9 +22,6 @@ sudo apt install --yes \
    python3-venv \
    ripgrep \
    stockfish \
-   zathura \
-   zathura-djvu \
-   zathura-ps \
 
 sudo git config --system core.editor emacs
 sudo git config --system pull.rebase true
