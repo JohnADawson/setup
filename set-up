@@ -5,7 +5,6 @@ sudo apt install --yes \
    emacs \
    gcc \
    git \
-   gnome-shell-pomodoro \
    gramps \
    graphviz \
    libgraphviz-dev \
