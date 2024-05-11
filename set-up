@@ -26,17 +26,18 @@ sudo apt install --yes \
 sudo git config --system core.editor emacs
 sudo git config --system pull.rebase true
 
+cd ~/Downloads
+git clone https://github.com/adobe-fonts/source-sans.git
+git clone https://github.com/adobe-fonts/source-code-pro.git
+git clone https://github.com/adobe-fonts/source-serif.git
 cd /usr/local/share/fonts
 sudo mkdir opentype
 cd opentype
 sudo mkdir source-sans source-code-pro source-serif
+sudo cp ~/Downloads/source-sans/OTF/*.otf source-sans
+sudo cp ~/Downloads/source-code-pro/OTF/*.otf source-code-pro
+sudo cp ~/Downloads/source-serif/OTF/*.otf source-serif
 cd ~/Downloads
-git clone https://github.com/adobe-fonts/source-sans.git
-sudo cp source-sans/OTF/*.otf /usr/local/share/fonts/opentype/source-sans
-git clone https://github.com/adobe-fonts/source-code-pro.git
-sudo cp source-code-pro/OTF/*.otf /usr/local/share/fonts/opentype/source-code-pro
-git clone https://github.com/adobe-fonts/source-serif.git
-sudo cp source-serif/OTF/*.otf /usr/local/share/fonts/opentype/source-serif
 rm --force --recursive source-sans source-code-pro source-serif
 
 echo -e '\nset editing-mode vi' | sudo tee --append /etc/inputrc
