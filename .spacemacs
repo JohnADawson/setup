@@ -34,7 +34,8 @@ This function should only modify configuration layer settings."
    dotspacemacs-configuration-layers
    '(csv
      elfeed
-     pdf
+     (pdf :variables
+          pdf-view-restore-filename "~/.emacs.d/.pdf-view-restore")
      (python :variables
              lsp-pylsp-plugins-rope-autoimport-enabled t
              lsp-pylsp-plugins-ruff-enabled t
